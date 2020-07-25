@@ -22,9 +22,4 @@ export class PropertiesListComponent
         }
         
     };
-
-    handleClick(args)
-    {
-        console.log(args);
-    }
 }

@@ -7,10 +7,4 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 export class PropertyThumbnailComponent
 {
     @Input() inpProp;
-    @Output() outpProp = new EventEmitter();
-
-    handleClick()
-{
-	this.outpProp.emit('foo');
-}
 }
